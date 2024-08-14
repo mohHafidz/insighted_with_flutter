@@ -90,6 +90,9 @@ class Body extends StatelessWidget {
                       color: Color(0xffF0F8FE)),
                   child: Column(
                     children: [
+                      SizedBox(
+                        height: 5,
+                      ),
                       Text(
                         'Questionnaire Description',
                         softWrap: true,
