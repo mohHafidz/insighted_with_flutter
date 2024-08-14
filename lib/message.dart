@@ -76,13 +76,20 @@ class _ChatScreenState extends State<ChatScreen> {
           },
           icon: Icon(Icons.arrow_back, color: Colors.black),
         ),
-        actions: [
-          CircleAvatar(
-            backgroundImage: AssetImage('asset/psikolog.jpg'),
-          )
-        ],
-        title: Text('Dr. Tirta Mandira Hudhi',
-            style: TextStyle(color: Colors.black)),
+        title: Row(
+          children: [
+            CircleAvatar(
+              backgroundImage: AssetImage('assets/psikolog.jpg'),
+            ),
+            SizedBox(
+              width: 15,
+            ),
+            Text(
+              'Dr. Tirta Mandira Hudhi',
+              style: TextStyle(color: Colors.black),
+            ),
+          ],
+        ),
         elevation: 0,
       ),
       body: Column(
