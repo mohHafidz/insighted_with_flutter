@@ -85,7 +85,7 @@ class _ChatScreenState extends State<ChatScreen> {
               width: 15,
             ),
             Text(
-              'Dr. Tirta Mandira Hudhi',
+              'Dr. Shindy Claudya Aprianti',
               style: TextStyle(color: Colors.black),
             ),
           ],
